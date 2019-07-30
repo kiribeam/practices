@@ -1,0 +1,21 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+  version="2.4">
+  <servlet>
+    <servlet-name>CookieTest</servlet-name>
+    <servlet-class>com.example.CookieTester</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieTest</servlet-name>
+    <url-pattern>/cookie.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>URLTest</servlet-name>
+    <servlet-class>com.example.URLTester</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>URLTest</servlet-name>
+    <url-pattern>/url.do</url-pattern>
+  </servlet-mapping>
+</web-app>
